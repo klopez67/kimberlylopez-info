@@ -1,0 +1,17 @@
+---
+title: "Website"
+author: "Kimberly Lopez"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Information about this website
+
+This website was created by Kimberly Palaguachi-Lopez. 
+
+
+If you want to learn more about the creator of this website, visit [this page](about.html)
+
+

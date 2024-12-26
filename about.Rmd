@@ -1,0 +1,23 @@
+---
+title: "About"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Introduction 
+
+Kimberly Lopez is currently a graduate student pursuing her Masters of Science in Biostatistics - on the Health Data Science track at Columbia University Mailman School of Public Health.
+
+# Academic and Professional Experience
+
+<iframe src="Lopez_Kimberly_CV (2024).docx.pdf" width="100%" height="600px"></iframe>
+
+
+# Social network
+If you want to learn more about my accomplishments, visit my [Linkedin](https://www.linkedin.com/in/kimberly-palaguachi-lopez2024).
+
+
+
