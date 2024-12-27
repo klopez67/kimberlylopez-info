@@ -5,13 +5,14 @@ output:
     toc: true
     toc_float: true
 ---
+
 <style>
 body {
     font-family: 'Georgia', serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
 }
 </style>
 

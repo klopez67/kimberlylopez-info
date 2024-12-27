@@ -2,17 +2,18 @@
 title: "Asthma Prevalance and Temperature"
 output: html_document
 ---
+
 <style>
 body {
     font-family: 'Georgia', serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
 }
 </style>
 
-## Project Overview
+### Project Overview:
 
 In my first semester of the Master's program, I collaborated with a team to explore the health impacts of global climate change, focusing on asthma prevalence. We examined how rising temperatures could increase asthma risks for vulnerable populations.
 

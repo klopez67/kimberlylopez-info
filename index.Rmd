@@ -1,6 +1,6 @@
 
 ---
-title: "Hello,"
+title: "Hello!"
 output: html_document
 ---
 
@@ -10,11 +10,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
 }
 </style>
 
-## I'm Kimberly. Welcome to My Website!
+## I'm Kimberly,and Welcome to My Website!
 
 
 <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">

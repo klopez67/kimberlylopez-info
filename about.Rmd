@@ -5,6 +5,15 @@ output:
     theme: flatly
 ---
 
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+</style>
 
 
 <iframe src="Lopez_Kimberly_CV (2024).docx.pdf" width="100%" height="600px"></iframe>
