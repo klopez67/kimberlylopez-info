@@ -1,30 +1,51 @@
 ---
 title: "Asthma Prevalance and Temperature"
-author: "Kimberly Lopez"
-date: "2024-12-27"
 output: html_document
 ---
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+</style>
+
+## Project Overview
+
+In my first semester of the Master's program, I collaborated with a team to explore the health impacts of global climate change, focusing on asthma prevalence. We examined how rising temperatures could increase asthma risks for vulnerable populations.
+
+### My Role
+
+- Responsible for [**data visualization**](https://zzihanlin.github.io/p8105_final/mapping.html) and creating a **customizable Shiny dashboard**.
+- Enabled users to explore asthma trends across states and incorporate temperature trends over time.
+- Created a user-friendly interface with no coding knowledge required.
+
+### Key Features
+
+- **Shiny App:** Visualizes asthma trends across states with temperature data.
+- **Comparison Tool:** Compare asthma and temperature trends within and between states over multiple years.
+- **Enhancement:** Goes beyond the CDC website by adding specific state-level comparisons.
+
+Check out the project here: [Shiny App](https://klopez67.shinyapps.io/final_draft/)  
+
+```{=html}
+<a href="https://klopez67.shinyapps.io/final_draft/">
+    <img src="images/shiny.png" alt="Preview of Asthma Trends Dashboard" width="300"/>
+</a>
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Learn more about our methodology: [Regression Analysis](https://zzihanlin.github.io/p8105_final/index.html)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### Software Used:
+- GitHub  
+- ShinyApps.io (for dashboard deployment)
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+

@@ -1,6 +1,6 @@
 
 ---
-title: "Hello!"
+title: "Hello,"
 output: html_document
 ---
 
@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 </style>
 
-## I'm Kimberly, Welcome to My Website
+## I'm Kimberly. Welcome to My Website!
 
 
 <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
@@ -26,8 +26,11 @@ I recently graduated from Lehigh University College of Health in 2024 with a Bac
 
 ### What I do
 
+I specialize in statistical analysis, variable modeling, and correlation analysis, with a passion for using data to explain health outcomes. Additionally, I have strong skills in research paper writing and the dissemination of findings through data visualization, aiming to improve health through evidence-based insights and clear communication. 
 
-### Previous Projects
+### Previous Projects 
+
+
 ```{=html}
 <style>
 /* Grid container to arrange images in 2x2 */

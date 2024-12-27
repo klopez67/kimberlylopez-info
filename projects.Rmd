@@ -1,9 +1,17 @@
+
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+</style>
+
 ---
 title: "Risk of Death Prediction and Survival Models for a Prospective Breast Cancer Cohort"
 output: 
   html_document
 ---
 
-
-
-### Authors: Kimberly Palaguachi-Lopez, Alexandria Taylor, Brooklynn McNeil, Dylan Morgan 

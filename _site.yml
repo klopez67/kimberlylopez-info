@@ -12,7 +12,7 @@ navbar:
         - text: Asthma Prevalance
           href: asthma_project.html
         - text: E-waste and Health in Latin America
-          href: ewaste.hmtl
+          href: ewaste.html
         - text: Older Adults living with Disability
           href: cap.html
     - text: "My CV"
@@ -24,3 +24,4 @@ navbar:
 output:
   html_document:
     theme: flatly
+ 

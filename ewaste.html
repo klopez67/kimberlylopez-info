@@ -11,7 +11,7 @@
 
 
 
-<title>ewaste</title>
+<title>Electronic Waste and Health Outcomes in Latin America</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -340,7 +264,7 @@ div.tocify {
       <a href="asthma_project.html">Asthma Prevalance</a>
     </li>
     <li>
-      <a href="ewaste.hmtl">E-waste and Health in Latin America</a>
+      <a href="ewaste.html">E-waste and Health in Latin America</a>
     </li>
     <li>
       <a href="cap.html">Older Adults living with Disability</a>
@@ -371,17 +295,92 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">ewaste</h1>
+<h1 class="title toc-ignore">Electronic Waste and Health Outcomes in
+Latin America</h1>
 
 </div>
 
 
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
 
-
-
-
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+</style>
+<p>While taking the course Environmental Epidemiology at Lehigh
+University, I chose to investigate Electronic waste and its effects on
+Health outcomes in Latin America for my final project. We were tasked
+with sourcing public data, propose a statistical plan, and conduct an
+anlysis to answer our research question.</p>
+<div id="background" class="section level4">
+<h4><strong>Background</strong></h4>
+<p>E-waste is increasing globally at a rate of 3.5% annually and
+improper disposal enable metals to leach into groundwater, soil, and can
+emit semi-volatile compounds in the air. The top three E-waste Exposure
+Pathways include:</p>
+<ul>
+<li>Dermal Exposure: handling lead contaminated E-waste</li>
+<li>Inhalation Exposure: burning and processing of e-waste can be
+inhaled through fumes</li>
+<li>Ingestion exposure: E-waste lead improperly disposed may contaminate
+groundwater</li>
+</ul>
+<p>For this project, I focused on Latin America as 97% of e-waste is
+improperly managed.</p>
+<p><strong>Research Question:</strong> What are the health impacts of
+e-waste on premature deaths and DALYs from 2010-2019 in Latin American
+Countries: Costa Rica, Colombia, and Chile? How has it changed or
+fluctuated over time?</p>
+</div>
+<div id="methods" class="section level4">
+<h4><strong>Methods</strong></h4>
+<p><strong>Data source:</strong> Organization For Economic Co-operation
+and Development</p>
+<p><strong>Data Analysis:</strong></p>
+<ul>
+<li>Graphically demonstrate the general trends of the data and run
+simple linear regressions</li>
+<li>Application of the generalized additive method analysis using total
+E-waste to investigate the relationship between DALYs due to lead and
+percent total premature deaths due to lead by country</li>
+<li>Application of the generalized additive method analysis using total
+E-waste to predict DALYS related to lead</li>
+</ul>
+</div>
+<div id="results" class="section level3">
+<h3><strong>Results</strong></h3>
+<ul>
+<li><p>E-waste Trends: All three countries showed significant increases
+in e-waste from 2010 to 2019, with Colombia having the highest increase
+(12.67 thousand tonnes/year, p = 3.76e-09).</p></li>
+<li><p>Premature Deaths due to Lead: CostaRica and Colombia had
+significant decreases in premature deaths due to lead (−0.029 and −0.019
+per year), while Chile showed a smaller decrease (−0.0026 per
+year).</p></li>
+<li><p>DALYs and E-waste: CostaRica showed a significant positive
+correlation between e-waste and DALYs due to lead (beta = 34.251, p =
+0.0072), while Chile and Colombia had insignificant results.</p></li>
+</ul>
+<div id="discussion" class="section level4">
+<h4><strong>Discussion</strong></h4>
+<p>The application of the generalized additive mixed-effect model (GAM)
+allowed for a more accurate understanding of the relationship between
+e-waste and health outcomes in Latin America, providing significant
+insights despite the model’s limitations due to the small sample
+size.</p>
+<p>Future studies should focus on expanding the dataset with more years
+of e-waste data, as well as incorporating longitudinal exposure
+assessment and biomonitoring data from individuals in direct contact
+with e-waste, to improve the model’s predictive power and inform more
+effective health interventions.</p>
 </div>
 </div>
+
+
+
 
 </div>
 
@@ -414,35 +413,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
