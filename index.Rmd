@@ -1,10 +1,10 @@
 
 ---
-title: ""
+title: "About"
 output: html_document
 ---
 
-# Kimberly Palaguachi-Lopez
+## **Kimberly Palaguachi-Lopez**
 
 <img src="IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
 
