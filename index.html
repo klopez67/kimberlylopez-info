@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>Hello!</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -260,6 +260,7 @@ $(document).ready(function () {
     <li>
       <a href="projects.html">Breast Cancer Survival</a>
     </li>
+    <li class="dropdown-header">Asthma Prevalance</li>
     <li>
       <a href="ewaste.hmtl">E-waste and Health in Latin America</a>
     </li>
@@ -293,16 +294,125 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">Hello!</h1>
 
 </div>
 
 
-<div id="kimberly-palaguachi-lopez" class="section level2">
-<h2><strong>Kimberly Palaguachi-Lopez</strong></h2>
-<p><img src="IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;"></p>
-<p>If you want to learn more about the creator of this website, visit <a
-href="about.html">this page</a></p>
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+</style>
+<div id="im-kimberly-welcome-to-my-website" class="section level2">
+<h2>I’m Kimberly Welcome to My Website</h2>
+<p><img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;"></p>
+<div id="about-me" class="section level3">
+<h3>About Me</h3>
+<p>I recently graduated from Lehigh University College of Health in 2024
+with a Bachelors of Science in Population Health. I am currently a
+graduate student at Columbia Mailman School of Public Health persuing a
+Masters of Science in Biostatistics on the Health Data Science
+Track.</p>
+</div>
+<div id="what-i-do" class="section level3">
+<h3>What I do</h3>
+</div>
+<div id="previous-projects" class="section level3">
+<h3>Previous Projects</h3>
+<style>
+/* Grid container to arrange images in 2x2 */
+#image-grid .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  gap: 20px;  /* Space between images */
+  justify-items: center;
+  align-items: center;
+}
+
+/* Individual container for each image */
+#image-grid .container {
+  position: relative;
+  width: 500px;  /* Fixed width for each image */
+  height: 200px; /* Fixed height for each image */
+}
+
+#image-grid .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Ensures the image covers the container */
+  transition: filter 0.5s ease;  /* Smooth transition for the blur effect */
+}
+
+/* Apply blur effect when hovering */
+#image-grid .container:hover .image {
+  filter: blur(2px);  /* Apply a blur effect with 2px intensity */
+}
+
+/* Overlay for text on hover */
+#image-grid .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;  /* Initially hide the overlay */
+  transition: .5s ease; /* Smooth transition for opacity */
+}
+
+/* Show overlay when hovering over the container */
+#image-grid .container:hover .overlay {
+  opacity: 1;  /* Show overlay when container is hovered */
+}
+
+#image-grid .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+
+<!-- Image Grid Wrapper with ID -->
+<div id="image-grid">
+  <div class="grid-container">
+    <div class="container">
+      <img src="images/banner.jpg" alt="Image 1" class="image">
+      <div class="overlay">
+        <div class="text">Breast Cancer Survival Modeling</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/banner.jpg" alt="Image 2" class="image">
+      <div class="overlay">
+        <div class="text">Asthma Prevalence and Temperature</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/photo3.png" alt="Image 3" class="image">
+      <div class="overlay">
+        <div class="text">E-waste and Health Outcomes in Latin America</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/photo4.jpg" alt="Image 4" class="image">
+      <div class="overlay">
+        <div class="text">Health Disparities Among Older Adults Living with a Disability in NYC</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 </div>
 
 

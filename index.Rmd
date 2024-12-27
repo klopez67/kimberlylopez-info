@@ -1,13 +1,120 @@
 
 ---
-title: "About"
+title: "Hello!"
 output: html_document
 ---
 
-## **Kimberly Palaguachi-Lopez**
+<style>
+body {
+    font-family: 'Georgia', serif;
+}
 
-<img src="IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+</style>
 
-If you want to learn more about the creator of this website, visit [this page](about.html)
+## I'm Kimberly Welcome to My Website
 
 
+<img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
+
+
+### About Me
+
+I recently graduated from Lehigh University College of Health in 2024 with a Bachelors of Science in Population Health. I am currently a graduate student at Columbia Mailman School of Public Health persuing a Masters of Science in Biostatistics on the Health Data Science Track. 
+
+### What I do
+
+
+### Previous Projects
+```{=html}
+<style>
+/* Grid container to arrange images in 2x2 */
+#image-grid .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  gap: 20px;  /* Space between images */
+  justify-items: center;
+  align-items: center;
+}
+
+/* Individual container for each image */
+#image-grid .container {
+  position: relative;
+  width: 500px;  /* Fixed width for each image */
+  height: 200px; /* Fixed height for each image */
+}
+
+#image-grid .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Ensures the image covers the container */
+  transition: filter 0.5s ease;  /* Smooth transition for the blur effect */
+}
+
+/* Apply blur effect when hovering */
+#image-grid .container:hover .image {
+  filter: blur(2px);  /* Apply a blur effect with 2px intensity */
+}
+
+/* Overlay for text on hover */
+#image-grid .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;  /* Initially hide the overlay */
+  transition: .5s ease; /* Smooth transition for opacity */
+}
+
+/* Show overlay when hovering over the container */
+#image-grid .container:hover .overlay {
+  opacity: 1;  /* Show overlay when container is hovered */
+}
+
+#image-grid .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+
+<!-- Image Grid Wrapper with ID -->
+<div id="image-grid">
+  <div class="grid-container">
+    <div class="container">
+      <img src="images/banner.jpg" alt="Image 1" class="image">
+      <div class="overlay">
+        <div class="text">Breast Cancer Survival Modeling</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/banner.jpg" alt="Image 2" class="image">
+      <div class="overlay">
+        <div class="text">Asthma Prevalence and Temperature</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/photo3.png" alt="Image 3" class="image">
+      <div class="overlay">
+        <div class="text">E-waste and Health Outcomes in Latin America</div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="images/photo4.jpg" alt="Image 4" class="image">
+      <div class="overlay">
+        <div class="text">Health Disparities Among Older Adults Living with a Disability in NYC</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+```
