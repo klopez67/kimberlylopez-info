@@ -10,13 +10,11 @@ navbar:
         - text: Breast Cancer Survival
           href: projects.html
         - text: Asthma Prevalance
-          href: 
+          href: asthma_project.html
         - text: E-waste and Health in Latin America
           href: ewaste.hmtl
         - text: Older Adults living with Disability
           href: cap.html
-        - text: Food Deserts in NYC
-          href:
     - text: "My CV"
       href: about.html
     - icon: fa-envelope fa-lg

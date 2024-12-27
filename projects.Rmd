@@ -1,8 +1,9 @@
 ---
-title: "Breast Cancer Survival Model"
+title: "Risk of Death Prediction and Survival Models for a Prospective Breast Cancer Cohort"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
+
+
+### Authors: Kimberly Palaguachi-Lopez, Alexandria Taylor, Brooklynn McNeil, Dylan Morgan 
