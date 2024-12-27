@@ -1,19 +1,26 @@
-name: "Yay internet!"
+name: "Kimberly Lopez"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Bio"
-      href: about.html
-      weight: 10
     - text: "Experience"
       href: experience.html
-    - text: "Projects"
-      href: projects.html
+    - text: Projects
+      menu: 
+        - text: Breast Cancer Survival
+          href: projects.html
+        - text: E-waste and Health in Latin America
+          href: ewaste.hmtl
+        - text: Older Adults living with Disability
+          href: cap.html
+        - text: Food Deserts in NYC
+          href:
+    - text: "My CV"
+      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:kp2809@cumc.columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/klopez67/
 output:
   html_document:
-    theme: sandstone
+    theme: flatly

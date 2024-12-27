@@ -4,12 +4,16 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: flatly
 ---
 
 
-# Chronic Disease 
+### Breakthrough T1D Internship 
 
+### Reseach Assistant 
 
+### STEM-SI Lehigh University (Influenza Agent Based Modeling)
+ 
+### Village Care Max 
 
-# Health Equity 
+### Pathways To Trust 
+
