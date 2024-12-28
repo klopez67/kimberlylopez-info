@@ -10,8 +10,39 @@ h1, h2, h3 {
 </style>
 
 ---
-title: "Risk of Death Prediction and Survival Models for a Prospective Breast Cancer Cohort"
+title: "Breast Cancer Risk of Death Prediction and Survival Models"
 output: 
   html_document
 ---
+
+
+While taking the course **Biostatistics** at Columbia University, our final project objective was to analyse and model Breast Cancer data from a Prospective Cohort study and assess model accuracy 
+
+#### **Background**
+
+
+
+###### **Research Question:** 
+
+
+
+#### **Methods**
+**Data source:** 
+
+**Data Analysis:**
+
+
+
+#### **Results**
+
+<figure style="text-align: center;">
+    <img src="images/diagnostics.png" style="width:100%; border:none;" alt="Diagnostic Tools Visualization" />
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+        Figure 1: This regression meets the Logistic Regression Model Diagnostics.
+    </figcaption>
+</figure>
+
+
+
+#### **Discussion**
 

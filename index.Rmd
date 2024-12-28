@@ -26,7 +26,9 @@ I recently graduated from Lehigh University College of Health in 2024 with a Bac
 
 ### What I do
 
-I specialize in statistical analysis, variable modeling, and correlation analysis, with a passion for using data to explain health outcomes. Additionally, I have strong skills in research paper writing and the dissemination of findings through data visualization, aiming to improve health through evidence-based insights and clear communication. 
+Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R and Python.
+
+I excel in statistical analysis, variable modeling, and correlation analysis, driven by a passion for leveraging data to uncover and explain health outcomes. With a strong background in conducting thorough literature reviews for research projects, I am skilled in transforming findings into compelling data visualizations. My work focuses on improving health through evidence-based insights and clear, impactful communication.
 
 ### Previous Projects 
 

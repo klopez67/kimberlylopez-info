@@ -15,7 +15,7 @@ h1, h2, h3 {
 
 ### Project Overview:
 
-In my first semester of the Master's program, I collaborated with a team to explore the health impacts of global climate change, focusing on asthma prevalence. We examined how rising temperatures could increase asthma risks for vulnerable populations.
+In my first semester of the Master's program, I collaborated with a team to explore the health impacts of global climate change, focusing on asthma prevalence. We examined how rising temperatures could increase asthma risks for vulnerable populations. We coded and deployed a website that describes our project's data collection and analysis. 
 
 ### My Role
 
@@ -25,7 +25,7 @@ In my first semester of the Master's program, I collaborated with a team to expl
 
 ### Key Features
 
-- **Shiny App:** Visualizes asthma trends across states with temperature data.
+- **Shiny App:** Visualizes asthma trends across states with temperature data. 
 - **Comparison Tool:** Compare asthma and temperature trends within and between states over multiple years.
 - **Enhancement:** Goes beyond the CDC website by adding specific state-level comparisons.
 
@@ -38,7 +38,7 @@ Check out the project here: [Shiny App](https://klopez67.shinyapps.io/final_draf
 ```
 
 
-Learn more about our methodology: [Regression Analysis](https://zzihanlin.github.io/p8105_final/index.html)
+Learn more about our methodology through our project website: [Regression Analysis](https://zzihanlin.github.io/p8105_final/index.html)
 
 ### Software Used:
 - GitHub  
