@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 </style>
 
-## I'm Kimberly,and Welcome to My Website!
+## I'm Kimberly, and Welcome to My Website!
 
 
 <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
@@ -30,7 +30,7 @@ I specialize in statistical analysis, variable modeling, and correlation analysi
 
 ### Previous Projects 
 
-
+Hover over the images to view my projects. 
 ```{=html}
 <style>
 /* Grid container to arrange images in 2x2 */

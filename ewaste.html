@@ -304,11 +304,12 @@ Latin America</h1>
 <style>
 body {
     font-family: 'Georgia', serif;
+    inline: 1.6;
     margin: 0 20px;
 }
 
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
     color: #2c3e50;
     margin-bottom: 10px;
 }
@@ -341,101 +342,76 @@ blockquote {
 }
 </style>
 <p>While taking the course <strong>Environmental Epidemiology</strong>
-at Lehigh University, I investigated the health impacts of electronic
-waste (e-waste) in Latin America. This project involved sourcing public
-data, proposing a statistical analysis plan, and conducting analyses to
-address our research question.</p>
-<div id="background" class="section level3">
-<h3>Background</h3>
-<p>E-waste is increasing globally by <strong>3.5% annually</strong>,
-posing significant environmental and health risks. Improper disposal
-enables metals to leach into <strong>groundwater</strong> and
-<strong>soil</strong>, while <strong>semi-volatile compounds</strong>
-are emitted into the air.</p>
-<p><strong>Top E-waste Exposure Pathways:</strong><br />
-- <strong>Dermal Exposure:</strong> Handling lead-contaminated
-e-waste.<br />
-- <strong>Inhalation Exposure:</strong> Breathing fumes from burning
-e-waste.<br />
-- <strong>Ingestion Exposure:</strong> Drinking water contaminated by
-lead from improperly disposed e-waste.</p>
+at Lehigh University, I chose to investigate Electronic waste and its
+effects on Health outcomes in Latin America for my final project. We
+were tasked with sourcing public data, propose a statistical plan, and
+conduct an analysis to answer our research question.</p>
+<div id="background" class="section level4">
+<h4><strong>Background</strong></h4>
+<p>E-waste is increasing globally at a rate of 3.5% annually and
+improper disposal enable metals to leach into groundwater, soil, and can
+emit semi-volatile compounds in the air. The top three E-waste Exposure
+Pathways include:</p>
+<ul>
+<li>Dermal Exposure: handling lead contaminated E-waste</li>
+<li>Inhalation Exposure: burning and processing of e-waste can be
+inhaled through fumes</li>
+<li>Ingestion exposure: E-waste lead improperly disposed may contaminate
+groundwater</li>
+</ul>
 <blockquote>
 <p>In Latin America, <strong>97% of e-waste is improperly
 managed</strong>.</p>
 </blockquote>
-<p><strong>Research Question:</strong><br />
-What are the health impacts of e-waste on <strong>premature
-deaths</strong> and <strong>DALYs (disability-adjusted life
-years)</strong> in <strong>Costa Rica, Colombia, and Chile</strong> from
-2010–2019? How have these impacts changed over time?</p>
+<div id="research-question" class="section level6">
+<h6><strong>Research Question:</strong></h6>
+<p>What are the health impacts of e-waste on premature deaths and DALYs
+from 2010-2019 in Latin American Countries: Costa Rica, Colombia, and
+Chile? How has it changed or fluctuated over time?</p>
 </div>
-<div id="methods" class="section level3">
-<h3>Methods</h3>
+</div>
+<div id="methods" class="section level4">
+<h4><strong>Methods</strong></h4>
+<p><strong>Data source:</strong> Organization For Economic Co-operation
+and Development</p>
+<p><strong>Data Analysis:</strong></p>
+<p>Graphically demonstrate the general trends of the data and run simple
+linear regressions Application of the generalized additive method
+analysis using total E-waste to investigate the relationship between
+DALYs due to lead and percent total premature deaths due to lead by
+country Application of the generalized additive method analysis using
+total E-waste to predict DALYS related to lead</p>
+</div>
+<div id="results" class="section level4">
+<h4><strong>Results</strong></h4>
+<p><img src="images/e-waste.png" style="width:30%; border:none;" />
+<img src="images/DALYS.png" style="width:30%; border:none;" />
+<img src="images/premature-death.png" style="width:30%; border:none;" /></p>
 <ul>
-<li><strong>Data Source:</strong> Organization for Economic Co-operation
-and Development (OECD).<br />
-</li>
-<li><strong>Analysis Techniques:</strong>
-<ul>
-<li>Trend visualization and simple linear regression.<br />
-</li>
-<li><strong>Generalized Additive Models (GAMs):</strong>
-<ul>
-<li>Investigate the relationship between e-waste and health
-outcomes.<br />
-</li>
-<li>Predict DALYs related to lead exposure.</li>
-</ul></li>
-</ul></li>
+<li><p>E-waste Trends: All three countries showed significant increases
+in e-waste from 2010 to 2019, with Colombia having the highest increase
+(12.67 thousand tonnes/year, p = 3.76e-09).</p></li>
+<li><p>Premature Deaths due to Lead: CostaRica and Colombia had
+significant decreases in premature deaths due to lead (−0.029 and −0.019
+per year), while Chile showed a smaller decrease (−0.0026 per
+year).</p></li>
+<li><p>DALYs and E-waste: CostaRica showed a significant positive
+correlation between e-waste and DALYs due to lead (β = 34.25, p =
+0.0072), while Chile and Colombia had insignificant results.</p></li>
 </ul>
 </div>
-<div id="results" class="section level3">
-<h3>Results</h3>
-<div id="e-waste-trends" class="section level5">
-<h5>E-waste Trends</h5>
-<ul>
-<li>All three countries showed increases in e-waste from 2010–2019.</li>
-<li><strong>Colombia</strong> had the largest increase: <strong>12.67
-thousand tonnes/year</strong> (<em>p = 3.76e-09</em>).</li>
-</ul>
-</div>
-<div id="premature-deaths-due-to-lead" class="section level5">
-<h5>Premature Deaths Due to Lead</h5>
-<ul>
-<li><strong>Costa Rica</strong>: Significant decrease (<strong>−0.029
-per year</strong>).<br />
-</li>
-<li><strong>Colombia</strong>: Significant decrease (<strong>−0.019 per
-year</strong>).<br />
-</li>
-<li><strong>Chile</strong>: Smaller decrease (<strong>−0.0026 per
-year</strong>).</li>
-</ul>
-</div>
-<div id="dalys-and-e-waste" class="section level5">
-<h5>DALYs and E-waste</h5>
-<ul>
-<li><strong>Costa Rica</strong>: Significant positive correlation
-between e-waste and DALYs due to lead (<em>β = 34.251, p =
-0.0072</em>).<br />
-</li>
-<li><strong>Chile</strong> and <strong>Colombia</strong>: Results were
-not statistically significant.</li>
-</ul>
-</div>
-</div>
-<div id="discussion" class="section level3">
-<h3>Discussion</h3>
+<div id="discussion" class="section level4">
+<h4><strong>Discussion</strong></h4>
 <p>The application of the generalized additive mixed-effect model (GAM)
 allowed for a more accurate understanding of the relationship between
 e-waste and health outcomes in Latin America, providing significant
 insights despite the model’s limitations due to the small sample
 size.</p>
 <p>Future studies should focus on expanding the dataset with more years
-of e-waste data, as well as incorporating <strong>longitudinal exposure
-assessment</strong> and <strong>biomonitoring data</strong> from
-individuals in direct contact with e-waste, to improve the model’s
-predictive power and inform more effective health interventions.</p>
+of e-waste data, as well as incorporating longitudinal exposure
+assessment and biomonitoring data from individuals in direct contact
+with e-waste, to improve the model’s predictive power and inform more
+effective health interventions.</p>
 </div>
 
 

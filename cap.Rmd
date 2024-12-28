@@ -1,6 +1,6 @@
 
 ---
-title: "Health Disparities Among Older Adults Living with a Disabity in NYC"
+title: "Health Disparities Among Older Adults Living with a Disability in NYC"
 output: 
   html_document:
     theme: flatly
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
 }
 </style>
  
