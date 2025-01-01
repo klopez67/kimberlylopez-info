@@ -1,19 +1,51 @@
 
-<style>
-body {
-    font-family: 'Georgia', serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-}
-</style>
-
 ---
 title: "Breast Cancer Risk of Death Prediction and Survival Models"
 output: 
   html_document
 ---
+
+<style>
+body {
+    font-family: 'Georgia', serif;
+    inline: 1.6;
+    margin: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #7f8c8d;
+    padding-left: 20px;
+    border-left: 5px solid #ecf0f1;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ecf0f1;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f9f9f9;
+}
+</style>
+
 
 
 While taking the course **Biostatistics** at Columbia University, our final project objective was to analyse and model Breast Cancer data from a Prospective Cohort study and assess model accuracy 

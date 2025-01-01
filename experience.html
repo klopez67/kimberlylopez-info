@@ -11,7 +11,7 @@
 
 
 
-<title>Experience</title>
+<title>experience.knit</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -371,7 +295,6 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Experience</h1>
 
 </div>
 
@@ -385,27 +308,121 @@ h1, h2, h3 {
     font-family: 'Georgia', serif;
 }
 </style>
-<div id="breakthrough-t1d-internship" class="section level3">
-<h3>Breakthrough T1D Internship</h3>
-</div>
-<div id="reseach-assistant" class="section level3">
-<h3>Reseach Assistant</h3>
-</div>
-<div id="stem-si-lehigh-university-influenza-agent-based-modeling"
-class="section level3">
-<h3>STEM-SI Lehigh University (Influenza Agent Based Modeling)</h3>
-</div>
-<div id="village-care-max" class="section level3">
-<h3>Village Care Max</h3>
-</div>
-<div id="pathways-to-trust" class="section level3">
-<h3>Pathways To Trust</h3>
+<style>
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  margin: 20px 0;
+  padding-left: 40px;
+  border-left: 2px solid #2C3E50; 
+  position: relative;
+}
+
+
+.timeline-item:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2C3E50; 
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+
+.timeline-content {
+  background: #F9F9F9;  
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+.timeline-content p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.timeline-item:hover .timeline-content {
+  background: #EAEAEA; 
+}
+
+
+.timeline-item:nth-child(odd) .timeline-content {
+  background: #F9F9F9;  /* Grey for odd items */
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  background: #F1F1F1;  /* Slightly lighter grey for even items */
+}
+
+</style>
+
+<h2 style="text-align: center; color: #2C3E50; margin-bottom: 20px;">My Professional Journey</h2>
+
+<div class="timeline">
+  <!-- Timeline Item - Breakthrough T1D Internship -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Breakthrough T1D Internship</h4>
+      <p><strong>Year:</strong> 2024</p>
+      <p><strong>Contributions:</strong> Collaborated on FDA-recognized biomarker analysis and supported cardiovascular research.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Research Assistant -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Research Assistant</h4>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Contributions:</strong> Conducted statistical analysis, data cleaning, and wrote abstracts for health conferences.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - STEM-SI Lehigh University (Influenza Agent Based Modeling) -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>STEM-SI Lehigh University (Influenza Agent Based Modeling)</h4>
+      <p><strong>Year:</strong> 2022</p>
+      <p><strong>Contributions:</strong> Designed and simulated influenza spread models using agent-based frameworks.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Village Care Max -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Village Care Max</h4>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Contributions:</strong> Supported healthcare outreach efforts by analyzing patient engagement metrics.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Pathways to Trust -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Pathways to Trust</h4>
+      <p><strong>Year:</strong> 2020</p>
+      <p><strong>Contributions:</strong> Strengthening Pathways to Trust's outreach efforts by identifying and researching potential grant opportunities and fostering key partnerships. This work facilitated the organization’s ability to secure funding, expand its network, and enhance its capacity to deliver community-based health initiatives..</p>
+    </div>
+  </div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -438,35 +455,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

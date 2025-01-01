@@ -1,9 +1,6 @@
 ---
-title: "Experience"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
 <style>
@@ -15,14 +12,118 @@ h1, h2, h3 {
     font-family: 'Georgia', serif;
 }
 </style>
+```{=html}
+<style>
 
-### Breakthrough T1D Internship 
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
 
-### Reseach Assistant 
+.timeline-item {
+  margin: 20px 0;
+  padding-left: 40px;
+  border-left: 2px solid #2C3E50; 
+  position: relative;
+}
 
-### STEM-SI Lehigh University (Influenza Agent Based Modeling)
- 
-### Village Care Max 
 
-### Pathways To Trust 
+.timeline-item:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2C3E50; 
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
 
+
+.timeline-content {
+  background: #F9F9F9;  
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+.timeline-content p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.timeline-item:hover .timeline-content {
+  background: #EAEAEA; 
+}
+
+
+.timeline-item:nth-child(odd) .timeline-content {
+  background: #F9F9F9;  /* Grey for odd items */
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  background: #F1F1F1;  /* Slightly lighter grey for even items */
+}
+
+</style>
+
+<h2 style="text-align: center; color: #2C3E50; margin-bottom: 20px;">My Professional Journey</h2>
+
+<div class="timeline">
+  <!-- Timeline Item - Breakthrough T1D Internship -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Breakthrough T1D Internship</h4>
+      <p><strong>Year:</strong> 2024</p>
+      <p><strong>Contributions:</strong> Collaborated on FDA-recognized biomarker analysis and supported cardiovascular research.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Research Assistant -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Research Assistant</h4>
+      <p><strong>Year:</strong> 2023</p>
+      <p><strong>Contributions:</strong> Conducted statistical analysis, data cleaning, and wrote abstracts for health conferences.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - STEM-SI Lehigh University (Influenza Agent Based Modeling) -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>STEM-SI Lehigh University (Influenza Agent Based Modeling)</h4>
+      <p><strong>Year:</strong> 2022</p>
+      <p><strong>Contributions:</strong> Designed and simulated influenza spread models using agent-based frameworks.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Village Care Max -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Village Care Max</h4>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Contributions:</strong> Supported healthcare outreach efforts by analyzing patient engagement metrics.</p>
+    </div>
+  </div>
+
+  <!-- Timeline Item - Pathways to Trust -->
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h4>Pathways to Trust</h4>
+      <p><strong>Year:</strong> 2020</p>
+      <p><strong>Contributions:</strong> Strengthening Pathways to Trust's outreach efforts by identifying and researching potential grant opportunities and fostering key partnerships. This work facilitated the organization’s ability to secure funding, expand its network, and enhance its capacity to deliver community-based health initiatives..</p>
+    </div>
+  </div>
+</div>
+
+```
