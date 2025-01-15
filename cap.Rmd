@@ -14,6 +14,76 @@ h1, h2, h3 {
     font-family: 'Georgia', serif;
 }
 </style>
- 
 
-<iframe src="images/capstone.png" width="90%" height="800px"></iframe>
+
+
+---
+title: "Electronic Waste and Health Outcomes in Latin America"
+output: 
+  html_document
+---
+
+<style>
+body {
+    font-family: 'Georgia', serif;
+    inline: 1.6;
+    margin: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #7f8c8d;
+    padding-left: 20px;
+    border-left: 5px solid #ecf0f1;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ecf0f1;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f9f9f9;
+}
+</style>
+
+While taking the **Honors Senior Capstone** course at Lehigh University’s College of Health, I led my project group, taking on greater responsibility to delegate tasks and perform advanced work while incorporating group inputs at every step of the project.
+
+#### **Background**
+
+
+###### **Research Question:** 
+
+
+
+#### **Methods**
+**Data source:** 
+**Data Analysis:**
+
+
+
+#### **Results**
+
+
+#### **Discussion**
+
+
+<img src="images/Capstone poster.png" alt="Capstone Poster" style="width:100%; border:none;" />
+
