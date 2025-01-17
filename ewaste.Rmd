@@ -58,7 +58,7 @@ E-waste is increasing globally at a rate of 3.5% annually and improper disposal 
 > In Latin America, **97% of e-waste is improperly managed**.
 
 
-###### **Research Question:** 
+**Research Question:** 
 
 What are the health impacts of e-waste on premature deaths and DALYs from 2010-2019 in Latin American Countries: Costa Rica, Colombia, and Chile? How has it changed or fluctuated over time?
 
