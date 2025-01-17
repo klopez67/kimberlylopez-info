@@ -14,6 +14,7 @@ h1, h2, h3 {
 }
 </style>
 
+# Hello!
 ## I'm Kimberly, and Welcome to My Website!
 
 
@@ -35,16 +36,16 @@ I excel in statistical analysis, variable modeling, and correlation analysis, dr
 Hover over the images to view my projects. 
 ```{=html}
 <style>
-/* Grid container to arrange images in 2x2 */
+
 #image-grid .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);  /* 2 columns */
-  gap: 20px;  /* Space between images */
+  gap: 20px;  
   justify-items: center;
   align-items: center;
 }
 
-/* Individual container for each image */
+
 #image-grid .container {
   position: relative;
   width: 500px;  
@@ -55,27 +56,27 @@ Hover over the images to view my projects.
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* coverage */
-  transition: filter 0.5s ease;  /* Smooth transition */
+  object-fit: cover;  
+  transition: filter 0.5s ease;  
 }
 
-/* Apply blur effect when hovering */
+
 #image-grid .container:hover .image {
-  filter: blur(1px);  /*  blur effect*/
+  filter: blur(1px);  
 }
 
-/* Overlay */
+
 #image-grid .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;  /*  hide the overlay */
+  opacity: 0;  
   transition: .5s ease; /* for opacity */
 }
 
-/* Show overlay when hovering over the container */
+
 #image-grid .container:hover .overlay {
   opacity: 1;  /* Show overlay when container is hovered */
 }
@@ -96,7 +97,7 @@ Hover over the images to view my projects.
 }
 
 #image-grid .text a:hover {
-  text-decoration: underline; /* Adds underline when hovering over the link */
+  text-decoration: underline; 
 }
 </style>
 
@@ -188,7 +189,7 @@ Hover over the images to view my projects.
 </head>
 <body>
 
-    <!-- LinkedIn Button Section -->
+   
     <section>
         <a href="https://www.linkedin.com/in/kimberly-palaguachi-lopez2024/" target="_blank" class="linkedin-btn">
             <i class="fab fa-linkedin"></i> Connect with me on LinkedIn
@@ -203,3 +204,6 @@ Hover over the images to view my projects.
 </html>
 
 ```
+
+
+
