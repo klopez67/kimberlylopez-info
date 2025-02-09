@@ -19,6 +19,9 @@ navbar:
       href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:kp2809@cumc.columbia.edu
+    - icon: "fab fa-linkedin"
+      href: "https://www.linkedin.com/in/kimberly-palaguachi-lopez2024/"
+      target: "_blank"
     - icon: fa-github fa-lg
       href: http://github.com/klopez67/
 output:

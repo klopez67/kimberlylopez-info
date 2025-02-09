@@ -33,7 +33,7 @@ Check out the project here: [Shiny App](https://klopez67.shinyapps.io/final_draf
 
 ```{=html}
 <a href="https://klopez67.shinyapps.io/final_draft/">
-    <img src="images/shiny.png" alt="Preview of Asthma Trends Dashboard" width="300"/>
+    <img src="images/shiny.png" alt="Preview of Asthma Trends Dashboard" width="800"/>
 </a>
 ```
 
