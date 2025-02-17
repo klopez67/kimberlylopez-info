@@ -22,11 +22,11 @@ h1, h2, h3 {
 
 ### About Me
 
-I recently graduated from Lehigh University College of Health in 2024 with a Bachelors of Science in Population Health. I am currently a graduate student at Columbia Mailman School of Public Health persuing a Masters of Science in Biostatistics on the Health Data Science Track. 
+I recently graduated from Lehigh University College of Health in 2024 with a Bachelors of Science in Population Health. I am currently a graduate student at Columbia Mailman School of Public Health pursuing a Masters of Science in Biostatistics on the Health Data Science Track. 
 
 ### What I do
 
-Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R and Python.
+Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R Language, Python, and SAS.
 
 I excel in statistical analysis, variable modeling, and correlation analysis, driven by a passion for leveraging data to uncover and explain health outcomes. With a strong background in conducting thorough literature reviews for research projects, I am skilled in transforming findings into compelling data visualizations. My work focuses on improving health through evidence-based insights and clear, impactful communication.
 
