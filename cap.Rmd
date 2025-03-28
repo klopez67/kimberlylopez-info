@@ -82,8 +82,6 @@ We employed **logistic regression models** to predict self-reported health statu
 This analysis aimed to identify significant determinants of health disparities among individuals with disabilities, providing insights into the intersection of health, access to care, and social determinants in the urban context of New York City.
 
 
-#### **Results**
-
 
 #### **Discussion**
 
