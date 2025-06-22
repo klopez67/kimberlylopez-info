@@ -16,10 +16,34 @@ h1, h2, h3 {
 
 ## I'm Kimberly, and Welcome to My Website!
 
+```{=html}
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px;">
 
-<img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
+  
+  <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover; border: 3px solid #2C3E50;">
 
+  
+  <div class="education-details" style="font-family: Georgia, serif; padding-top: 40px;">
+    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 15px; color: #2C3E50;">
+      <span class="edu-icon" style="font-size: 24px; margin-right: 10px;">🎓</span>
+      <div>
+        <strong>M.S. Biostatistics - Health Data Science</strong><br>
+        Columbia University, 2026
+      </div>
+    </div>
 
+    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 15px; color: #2C3E50;">
+      <span class="edu-icon" style="font-size: 24px; margin-right: 10px;">🎓</span>
+      <div>
+        <strong>B.S. Population Health</strong><br>
+        Lehigh University, 2024
+      </div>
+    </div>
+  </div>
+
+</div>
+
+```
 ### About Me
 
 I am currently a 2nd year graduate student at Columbia University Mailman School of Public Health in the Masters of Science Biostatistics program on the Health Data Science track. My research interest include population health and clinical research in chronic diseases such as Cardiovascular disease, Kidney disease, Diabetes, and Cancer. 
@@ -32,13 +56,13 @@ I excel in statistical analysis, variable modeling, and correlation analysis, dr
 
 ### Previous Projects 
 
-Hover over the images to view my projects. 
+You may hover over the images to view my past projects. 
 ```{=html}
 <style>
 
 #image-grid .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  grid-template-columns: repeat(2, 1fr);  
   gap: 20px;  
   justify-items: center;
   align-items: center;
@@ -101,7 +125,7 @@ Hover over the images to view my projects.
 </style>
 
 
-<!-- Image Grid-->
+
 <div id="image-grid">
   <div class="grid-container">
     <div class="container">
