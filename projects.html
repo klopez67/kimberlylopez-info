@@ -387,10 +387,10 @@ dataset included three demographic variables: age, race, and marital
 status (Figure 1). The dataset includes numerous clinical variables
 relevant to breast cancer staging.</p>
 <figure style="text-align: center;">
-<img src="images/stat_summary.png" style="width:40%; border:none;" alt="" />
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
 Figure 1: Demographic Summary Table of Breast Cancer Cohort.
 </figcaption>
+<p><img src="images/stat_summary.png" style="width:40%; border:none;" alt="" /></p>
 </figure>
 <p><strong>Data Analysis:</strong></p>
 <p>We utilized two validated methods for variable selection for logistic
@@ -409,10 +409,10 @@ model.</p>
 <div id="results" class="section level4">
 <h4><strong>Results</strong></h4>
 <figure style="text-align: center;">
-<img src="images/diagnostics.png" style="width:100%; border:none;" alt="Diagnostic Tools Visualization" />
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
 Figure 2: Logistic Regression Model Diagnostics.
 </figcaption>
+<p><img src="images/diagnostics.png" style="width:100%; border:none;" alt="Diagnostic Tools Visualization" /></p>
 </figure>
 <p>The logistic regression model assumes linearity of the logit outcome,
 must contain no influential outliers, independence of error terms, and
@@ -423,16 +423,16 @@ VIF scores (&lt;5), indicating no significant collinearity concerns, and
 residuals were uniformly distributed. Cook’s distance revealed no
 influential outliers.</p>
 <figure style="text-align: center;">
-<img src="images/age1.png" style="width:40%; border:none;" alt="Diagnostic Tools Visualization" />
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
 Figure 3: Assessing Linearity of Age and Logit outcome.
 </figcaption>
+<img src="images/age1.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" />
 </figure>
 <figure style="text-align: center;">
-<img src="images/age2.png" style="width:40%; border:none;" alt="Diagnostic Tools Visualization" />
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
 Figure 4: Polynomial variable of Age and Logit outcome.
 </figcaption>
+<img src="images/age2.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" />
 </figure>
 <p>A second-degree polynomial term for age significantly improved the
 model fit compared to models without it, as confirmed by ANOVA nested
@@ -442,10 +442,10 @@ death was 24.1% (95% CI: 16.7%–33.6). Younger patients (age 30) had 2.74
 times greater odds of death compared to 50-year-olds while 50-year-olds
 had 0.29 times lower odds of death compared to 70-year-olds.</p>
 <figure style="text-align: center;">
-<img src="images/curve.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" />
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
 Figure 5: Logistic Model Performance.
 </figcaption>
+<img src="images/curve.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" />
 </figure>
 <p>The logistic regression model had an AIC of 2483 and an AUC curve of
 0.76 (Figure. 5). After computing the Confusion matrix table, we found
