@@ -14,33 +14,39 @@ h1, h2, h3 {
 }
 </style>
 
+
+
+
 ## I'm Kimberly, and Welcome to My Website!
+
+
 
 ```{=html}
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px;">
 
-  
-  <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover; border: 3px solid #2C3E50;">
+  <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover; border: 1px solid #2C3E50;">
 
   
-  <div class="education-details" style="font-family: Georgia, serif; padding-top: 40px;">
-    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 15px; color: #2C3E50;">
-      <span class="edu-icon" style="font-size: 24px; margin-right: 10px;">🎓</span>
+  <div class="education-details" style="font-family: Georgia, serif; padding-top: 50px;">
+
+   
+    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 30px; color: #2C3E50;">
+      <i class="fa-solid fa-graduation-cap fa-lg" style="margin-right: 10px;"></i>
+      <img src="images/CU_logo.png" alt="Columbia University" style="width: 197px; height: 25px; margin-right: 5px;">
       <div>
-        <strong>M.S. Biostatistics - Health Data Science</strong><br>
-        Columbia University, 2026
+        <strong>M.S. Biostatistics – Health Data Science '26</strong><br>
       </div>
     </div>
 
-    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 15px; color: #2C3E50;">
-      <span class="edu-icon" style="font-size: 24px; margin-right: 10px;">🎓</span>
+    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 30px; color: #2C3E50;">
+      <i class="fa-solid fa-graduation-cap fa-lg" style="margin-right: 10px;"></i>
+      <img src="images/lehigh_logo.png" alt="Lehigh University" style="width: 175px; height: 30px; margin-right: 20px;">
       <div>
-        <strong>B.S. Population Health</strong><br>
-        Lehigh University, 2024
+        <strong>  B.S. Population Health '24</strong><br>
       </div>
     </div>
+
   </div>
-
 </div>
 
 ```

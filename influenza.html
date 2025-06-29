@@ -11,7 +11,7 @@
 
 
 
-<title>Hello!</title>
+<title>Agent based Modeling Influenza</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -304,7 +304,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Hello!</h1>
+<h1 class="title toc-ignore">Agent based Modeling Influenza</h1>
 
 </div>
 
@@ -312,187 +312,49 @@ $(document).ready(function () {
 <style>
 body {
     font-family: 'Georgia', serif;
+    inline: 1.6;
+    margin: 0 20px;
 }
 
 h1, h2, h3 {
     font-family: 'Georgia', serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #7f8c8d;
+    padding-left: 20px;
+    border-left: 5px solid #ecf0f1;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ecf0f1;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f9f9f9;
 }
 </style>
-<div id="im-kimberly-and-welcome-to-my-website" class="section level2">
-<h2>I’m Kimberly, and Welcome to My Website!</h2>
-<div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px;">
-
-  <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover; border: 1px solid #2C3E50;">
-
-  
-  <div class="education-details" style="font-family: Georgia, serif; padding-top: 50px;">
-
-   
-    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 30px; color: #2C3E50;">
-      <i class="fa-solid fa-graduation-cap fa-lg" style="margin-right: 10px;"></i>
-      <img src="images/CU_logo.png" alt="Columbia University" style="width: 197px; height: 25px; margin-right: 5px;">
-      <div>
-        <strong>M.S. Biostatistics – Health Data Science '26</strong><br>
-      </div>
-    </div>
-
-    <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 30px; color: #2C3E50;">
-      <i class="fa-solid fa-graduation-cap fa-lg" style="margin-right: 10px;"></i>
-      <img src="images/Lehigh_logo.png" alt="Lehigh University" style="width: 175px; height: 30px; margin-right: 20px;">
-      <div>
-        <strong>  B.S. Population Health '24</strong><br>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="about-me" class="section level3">
-<h3>About Me</h3>
-<p>I am currently a 2nd year graduate student at Columbia University
-Mailman School of Public Health in the Masters of Science Biostatistics
-program on the Health Data Science track. My research interest include
-population health and clinical research in chronic diseases such as
-Cardiovascular disease, Kidney disease, Diabetes, and Cancer.</p>
-</div>
-<div id="what-i-do" class="section level3">
-<h3>What I do</h3>
-<p>Coming from a background in Population Health and research, I have
-theoretical and practical knowledge in study design and data analysis. I
-have data collection and management experience with coding languages
-such as R Language, Python, and SAS.</p>
-<p>I excel in statistical analysis, variable modeling, and correlation
-analysis, driven by a passion for leveraging data to uncover and explain
-health outcomes. With a strong background in conducting thorough
-literature reviews for research projects, I am skilled in transforming
-findings into compelling data visualizations. I have experience in both
-clinical analysis as well as machine learning prediction based modeling
-methods.</p>
-</div>
-<div id="previous-projects" class="section level3">
-<h3>Previous Projects</h3>
-<p>You may hover over the images to view my past projects.</p>
-<style>
-
-#image-grid .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);  
-  gap: 20px;  
-  justify-items: center;
-  align-items: center;
-}
-
-
-#image-grid .container {
-  position: relative;
-  width: 500px;  
-  height: 200px; 
-}
-
-#image-grid .image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-  transition: filter 0.5s ease;  
-}
-
-
-#image-grid .container:hover .image {
-  filter: blur(1px);  
-}
-
-
-#image-grid .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;  
-  transition: .5s ease; /* for opacity */
-}
-
-
-#image-grid .container:hover .overlay {
-  opacity: 1;  /* Show overlay when container is hovered */
-}
-
-#image-grid .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-#image-grid .text a {
-  color: white; 
-  text-decoration: none; 
-}
-
-#image-grid .text a:hover {
-  text-decoration: underline; 
-}
-</style>
-
-
-
-<div id="image-grid">
-  <div class="grid-container">
-    <div class="container">
-      <img src="images/photo1.jpg" alt="Image 1" class="image">
-      <div class="overlay">
-        <div class="text"><a href="projects.html">Breast Cancer Survival Modeling</a></div>
-      </div>
-    </div>
-    <div class="container">
-      <img src="images/photo2.jpg" alt="Image 2" class="image">
-      <div class="overlay">
-        <div class="text"><a href="asthma_project.html">Asthma Prevalence and Temperature</a></div>
-      </div>
-    </div>
-    <div class="container">
-      <img src="images/photo3.jpg" alt="Image 3" class="image">
-      <div class="overlay">
-        <div class="text"><a href="ewaste.html">E-waste and Health Outcomes in Latin America</a></div>
-      </div>
-    </div>
-    <div class="container">
-      <img src="images/photo4.jpg" alt="Image 4" class="image">
-      <div class="overlay">
-        <div class="text"><a href="cap.html">Health Disparities Among Older Adults Living with a Disability in NYC</a></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: transparent;
-        }
-    </style>
-</head>
-<body>
-
-<footer>
-    <p>© 2025 Kimberly Palaguachi-Lopez</p>
-</footer>
-
-</body>
-</html>
-
-</div>
-</div>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 1: Influenza
+</figcaption>
+<p><img src="images/influenza.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" /></p>
+</figure>
 
 
 
