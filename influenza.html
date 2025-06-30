@@ -11,7 +11,7 @@
 
 
 
-<title>Agent based Modeling Influenza</title>
+<title>Agent Based Modeling of Influenza</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -264,13 +264,16 @@ $(document).ready(function () {
       <a href="projects.html">Breast Cancer Survival</a>
     </li>
     <li>
-      <a href="asthma_project.html">Asthma Prevalance</a>
+      <a href="asthma_project.html">Asthma &amp; Tempature Dashboard</a>
     </li>
     <li>
       <a href="ewaste.html">E-waste and Health in Latin America</a>
     </li>
     <li>
       <a href="cap.html">Older Adults living with Disability</a>
+    </li>
+    <li>
+      <a href="influenza.html">Influenza Agent Based Modeling</a>
     </li>
   </ul>
 </li>
@@ -304,7 +307,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Agent based Modeling Influenza</h1>
+<h1 class="title toc-ignore">Agent Based Modeling of Influenza</h1>
 
 </div>
 
@@ -349,12 +352,75 @@ blockquote {
     background-color: #f9f9f9;
 }
 </style>
+<div id="background" class="section level4">
+<h4><strong>Background</strong></h4>
+<p>In the U.S. there are 140K to 710K influenza hospitalizations every
+year. Influenza viral infections exacerbate other underlying chronic
+conditions such as cardiovascular disease, diabetes, and neurological
+complications. People from racial and ethnic minority backgrounds, as
+well as those with limited access to healthcare, may experience higher
+rates of influenza infections and related complications.</p>
+<p><strong>Aims:</strong> The goal of this project is to compare a
+Susceptible, Exposed, Infectious, and Removed (SEIR) model to an Agent
+Based Model (ABM) is typically used to predict the spread of outbreaks.
+Past work has shown that ABMs can capture human behavior better than
+SEIR models.Vaccination rates are one example of incorporating human
+behavior onto an ABM.</p>
+</div>
+<div id="methods" class="section level4">
+<h4><strong>Methods</strong></h4>
+<p>We obtained weekly lab confirmed cases of influenza A and B from 2011
+to 2022 for all 67 counties in Pennsylvania. We trained an SEIR model on
+historical influenza data to estimate parameter values that can be input
+into an ABM.To model vaccines we included four parameters on daily
+vaccination chance, vaccine efficacy, average conversation period, and
+day of first infection. The simulation was conducted on NetLogo. We
+compared the number of influenza infections in the ABM and SEIR model.
+All data visualization and processing were conducted using Python.
+NetLogo, a multi-agent programmable modeling environment, was used for
+agent-based modeling (Wilensky, 1999).</p>
+</div>
+<div id="results" class="section level4">
+<h4><strong>Results</strong></h4>
+<p>Lab-confirmed influenza cases in Lehigh County, Pennsylvania from
+2011 to 2022. There are multiple peaks within an epidemic season,
+showing the variability in peak timing and peak intensity.</p>
 <figure style="text-align: center;">
 <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
-Figure 1: Influenza
+Figure 1: Unpredictable Timing &amp; Intensity
 </figcaption>
-<p><img src="images/influenza.png" style="width:50%; border:none;" alt="Diagnostic Tools Visualization" /></p>
+<p><img src="images/Influenza/epidemic.png" style="width:60%; border:none;" alt="epidemic" /></p>
 </figure>
+<p>Average peak intensity per county across all seasons. We defined peak
+intensity as the maximum number of cases over one season. Season peaks
+were generally concentrated between weeks 15-20.</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 2: Patterns of Peak Intensity in Pennsylvania
+</figcaption>
+<p><img src="images/Influenza/influenza.png" style="width:60%; border:none;" alt="seasons" /></p>
+</figure>
+<p>The SEIR historical data peaks around week 15 similar to the ABM.
+Less infections occurred in our ABM simulation compared to our SEIR
+modeled historical data as vaccinations lowered susceptibility among the
+sample population.</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 3: ABM vs. SEIR Influenza Model
+</figcaption>
+<img src="images/Influenza/ABM.png" style="width:40%; border:none;" alt="seasons" />
+</figure>
+</div>
+<div id="discussion" class="section level4">
+<h4><strong>Discussion</strong></h4>
+<p>Our comparison indicates the use of ABMs are capable of showing the
+effect of vaccination on the proportion of infectious individuals.Both
+peaks occurred around week 15. As expected, the number of infections was
+reduced when incorporating vaccinations. With this model, either SEIR or
+ABM, we expect these results could better guide public health policy
+making when addressing epidemics to minimize the burden of disease in
+the population.</p>
+</div>
 
 
 

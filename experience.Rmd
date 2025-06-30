@@ -140,7 +140,7 @@ Assessed significance of primary endpoints through ANCOVA.
     <h4>STEM-SI Lehigh University (Influenza Agent Based Modeling)</h4>
     <p><strong>Year:</strong> 2023</p>
     <p>Using a SEIR model, I simulated influenza spread across Pennsylvania's 67 counties, leveraging weekly MMWR data from 2011 to 2023 provided by the CDC. The extensive dataset, covering three influenza strains, posed challenges in handling and processing. To address this, I initially worked with a smaller data sample to test and refine my Python and NetLogo code. This iterative approach ensured accuracy and efficiency before scaling up to the full dataset, ultimately yielding valuable insights into influenza dynamics over a 12-year period.</p>
-    <p><strong>Contributions:</strong> Modeled influenza spread using a SEIR framework, overcame big data challenges by iteratively refining code with smaller samples, and scaled the model to the full 13-year dataset, providing actionable insights into long-term influenza trends.</p>
+    <p><strong>Contributions:</strong> Modeled influenza spread using a SEIR framework, overcame big data challenges by iteratively refining code with smaller samples, and scaled the model to the full 12-year dataset, providing actionable insights into long-term influenza trends.</p>
     <figure style="text-align: center;">
       <img src="images/me.png" style="width:40%; border:none;" alt="Influenza Modeling Presentation" />
       <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">

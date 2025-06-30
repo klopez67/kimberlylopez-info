@@ -11,12 +11,14 @@ navbar:
           href: SAS_project.html
         - text: Breast Cancer Survival
           href: projects.html
-        - text: Asthma Prevalance
+        - text: Asthma & Tempature Dashboard
           href: asthma_project.html
         - text: E-waste and Health in Latin America
           href: ewaste.html
         - text: Older Adults living with Disability
           href: cap.html
+        - text: "Influenza Agent Based Modeling"
+          href: influenza.html
     - text: "My CV"
       href: about.html
     - icon: fa-envelope fa-lg
