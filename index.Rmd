@@ -102,12 +102,12 @@ You may hover over the images to view my past projects.
   left: 0;
   right: 0;
   opacity: 0;  
-  transition: 0.5s ease; /* for opacity */
+  transition: 0.5s ease; /* opacity */
 }
 
 
 #image-grid .container:hover .overlay {
-  opacity: 1;  /* Show overlay when container is hovered */
+  opacity: 1;  /*  overlay when hovering */
 }
 
 #image-grid .text {
