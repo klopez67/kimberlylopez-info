@@ -379,29 +379,23 @@ methods.</p>
   grid-template-columns: repeat(2, 1fr);  
   gap: 20px;  
   justify-items: center;
-  align-items: center;
-}
-
+  align-items: center;}
 
 #image-grid .container {
   position: relative;
   width: 500px;  
-  height: 200px; 
-}
+  height: 200px; }
 
 #image-grid .image {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;  
-  transition: filter 0.5s ease;  
-}
-
-
+  transition: filter 0.5s ease;  }
+  
 #image-grid .container:hover .image {
   filter: blur(1px);  
 }
-
 
 #image-grid .overlay {
   position: absolute;
@@ -410,13 +404,11 @@ methods.</p>
   left: 0;
   right: 0;
   opacity: 0;  
-  transition: 0.5s ease; /* opacity */
-}
+  transition: 0.5s ease; /* opacity */}
 
 
 #image-grid .container:hover .overlay {
-  opacity: 1;  /*  overlay when hovering */
-}
+  opacity: 1;  /*  overlay when hovering */}
 
 #image-grid .text {
   color: white;
@@ -436,6 +428,11 @@ methods.</p>
 #image-grid .text a:hover {
   text-decoration: underline; 
 }
+#image-grid .center-span {
+  grid-column: span 2;
+  justify-self: center;
+}
+
 </style>
 
 
@@ -443,27 +440,34 @@ methods.</p>
 <div id="image-grid">
   <div class="grid-container">
     <div class="container">
-      <img src="images/photo1.jpg" alt="Image 1" class="image">
+      <img src="images/flu_img.png" alt="Image 1" class="image">
       <div class="overlay">
-        <div class="text"><a href="projects.html">Breast Cancer Survival Modeling</a></div>
+        <div class="text"><a href=" vaccine.html">Predicting Flu Severity </a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo2.jpg" alt="Image 2" class="image">
+      <img src="images/SAS_final_project_tables/Alzheimers.png" alt="Image 2" class="image">
       <div class="overlay">
-        <div class="text"><a href="asthma_project.html">Asthma Prevalence and Temperature</a></div>
+        <div class="text"><a href="SAS_project.html"> Sex and Genetic Risk Factors of Cognitive Decline </a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo3.jpg" alt="Image 3" class="image">
+      <img src="images/photo1.jpg" alt="Image 3" class="image">
       <div class="overlay">
-        <div class="text"><a href="ewaste.html">E-waste and Health Outcomes in Latin America</a></div>
+        <div class="text"><a href=" projects.html"> Breast Cancer Survival Modeling</a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo4.jpg" alt="Image 4" class="image">
+      <img src="images/asthma.png " alt="Image 4" class="image">
       <div class="overlay">
-        <div class="text"><a href="cap.html">Health Disparities Among Older Adults Living with a Disability in NYC</a></div>
+        <div class="text"><a href="asthma_project.html">Asthma Prevalance and Temperature
+ </a></div>
+      </div>
+    </div>
+    <div class="container center-span">
+      <img src="images/Influenza/img.png" alt="Image 5" class="image">
+      <div class="overlay">
+        <div class="text"><a href=" influenza.html"> Influenza Agent Based Modeling </a></div>
       </div>
     </div>
   </div>

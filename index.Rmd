@@ -12,7 +12,8 @@ body {
 h1, h2, h3 {
     font-family: 'Georgia', serif;
 }
-</style>
+</style> 
+
 
 
 
@@ -120,6 +121,11 @@ You may hover over the images to view my past projects.
 #image-grid .text a:hover {
   text-decoration: underline; 
 }
+#image-grid .center-span {
+  grid-column: span 2;
+  justify-self: center;
+}
+
 </style>
 
 
@@ -127,27 +133,34 @@ You may hover over the images to view my past projects.
 <div id="image-grid">
   <div class="grid-container">
     <div class="container">
-      <img src="images/photo1.jpg" alt="Image 1" class="image">
+      <img src="images/flu_img.png" alt="Image 1" class="image">
       <div class="overlay">
-        <div class="text"><a href="projects.html">Breast Cancer Survival Modeling</a></div>
+        <div class="text"><a href=" vaccine.html">Predicting Flu Severity </a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo2.jpg" alt="Image 2" class="image">
+      <img src="images/SAS_final_project_tables/Alzheimers.png" alt="Image 2" class="image">
       <div class="overlay">
-        <div class="text"><a href="asthma_project.html">Asthma Prevalence and Temperature</a></div>
+        <div class="text"><a href="SAS_project.html"> Sex and Genetic Risk Factors of Cognitive Decline </a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo3.jpg" alt="Image 3" class="image">
+      <img src="images/photo1.jpg" alt="Image 3" class="image">
       <div class="overlay">
-        <div class="text"><a href="ewaste.html">E-waste and Health Outcomes in Latin America</a></div>
+        <div class="text"><a href=" projects.html"> Breast Cancer Survival Modeling</a></div>
       </div>
     </div>
     <div class="container">
-      <img src="images/photo4.jpg" alt="Image 4" class="image">
+      <img src="images/asthma.png " alt="Image 4" class="image">
       <div class="overlay">
-        <div class="text"><a href="cap.html">Health Disparities Among Older Adults Living with a Disability in NYC</a></div>
+        <div class="text"><a href="asthma_project.html">Asthma Prevalance and Temperature
+ </a></div>
+      </div>
+    </div>
+    <div class="container center-span">
+      <img src="images/Influenza/img.png" alt="Image 5" class="image">
+      <div class="overlay">
+        <div class="text"><a href=" influenza.html"> Influenza Agent Based Modeling </a></div>
       </div>
     </div>
   </div>
