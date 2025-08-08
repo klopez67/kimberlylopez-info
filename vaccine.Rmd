@@ -341,12 +341,11 @@ ggplot(gbmA.fit2, highlight = TRUE)
 
 #### 3.) SVM Radial Sigma
 
-Support Vector Machine (SVM) Radial Sigma: This model used the specified method of “svmRadialSigma”. The hyperparameter grid was defined with an exponential range of cost (C) values from exp(3) to exp(7), totaling 25 values, and sigma values from exp(−12) to exp(−4), totaling 15 values. This expanded grid was selected based on prior experimentation with the grid, as smaller ranges (e.g., C between exp(0) and exp(5)) were at the boundaries of the previous grids. After CV, the optimal model used a cost value of 175.32 and sigma value of 6.041424e-05 (Figure 11).  
+**Support Vector Machine (SVM) Radial Sigma:** This model used the specified method of “svmRadialSigma”. The hyperparameter grid was defined with an exponential range of cost (C) values from exp(3) to exp(7), totaling 25 values, and sigma values from exp(−12) to exp(−4), totaling 15 values. This expanded grid was selected based on prior experimentation with the grid, as smaller ranges (e.g., C between exp(0) and exp(5)) were at the boundaries of the previous grids. After CV, the optimal model used a cost value of 175.32 and sigma value of 6.041424e-05 (Figure 11).  
 
 
-```{r message=FALSE, warning=FALSE}
-suppressMessages(suppressWarnings({
-  
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+ 
 #SVM on Preprocessed data
 svmr.grid3 = expand.grid(C = exp(seq(3, 7, length = 25)), #originally 0,5 then 5,8 which wasnt good
                          sigma = exp(seq(-12, -4, length = 15)))
@@ -357,8 +356,9 @@ svmr.fit2 = train(severe_flu ~.,
                  metric = "ROC",
                  tuneGrid= svmr.grid3, 
                  trControl = ctrl)
-}))
+ 
 ```
+
 ```{r}
 
 plot(svmr.fit2, highlight = TRUE, par.settings = myPar)
@@ -369,6 +369,9 @@ plot(svmr.fit2, highlight = TRUE, par.settings = myPar)
 
 
 # **Model selection**
+To compare the models, the resamples function was applied since the same CV and data preprocessing was applied to each model. The model with the highest median ROC on the training data was logistic regression (0.738). All models had similarly high sensitivity, the ability to correctly identify severe flu cases, and low specificity, indicating limited ability to correctly classify non-severe cases. The logistic regression had a specificity of 0.21 and sensitivity of 0.95. Although the elastic net model, which behaved more like a ridge regression (α = 0), achieved the highest mean ROC (0.710), it did not have the highest median ROC, suggesting less consistent performance across folds. 
+
+Figure 12. Resampling Cross-Validation Model Comparison
 ```{r}
 #*scaled, centered & box cox transformation*
 resamp = resamples(list(svmr2= svmr.fit2, 
@@ -382,7 +385,6 @@ resamp = resamples(list(svmr2= svmr.fit2,
 bwplot(resamp)
 ```
 
-To compare the models, the resamples function was applied since the same CV and data preprocessing was applied to each model. The model with the highest median ROC on the training data was logistic regression (0.738). All models had similarly high sensitivity, the ability to correctly identify severe flu cases, and low specificity, indicating limited ability to correctly classify non-severe cases. The logistic regression had a specificity of 0.21 and sensitivity of 0.95. Although the elastic net model, which behaved more like a ridge regression (α = 0), achieved the highest mean ROC (0.710), it did not have the highest median ROC, suggesting less consistent performance across folds. 
 
 Across many models, variables such as bmi, weight, and height were highly correlated. PCA was applied to the final model as an attempt to reduce the differences in variances, but did not improve the model on the training data (log.fit3). The final model did not use PCA as it did not improve generalizability, so to preserve interpretability, simple logistic regression was used. Therefore, the final model of logistic regression trained on the preprocessed data was selected based on the lowest median ROC selection criteria. Thus, advanced methods such as boosting and SVM did not outperform simpler logistic regression, suggesting limited benefit from more complex models in this dataset.
 

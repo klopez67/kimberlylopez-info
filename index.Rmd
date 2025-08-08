@@ -71,29 +71,23 @@ You may hover over the images to view my past projects.
   grid-template-columns: repeat(2, 1fr);  
   gap: 20px;  
   justify-items: center;
-  align-items: center;
-}
-
+  align-items: center;}
 
 #image-grid .container {
   position: relative;
   width: 500px;  
-  height: 200px; 
-}
+  height: 200px; }
 
 #image-grid .image {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;  
-  transition: filter 0.5s ease;  
-}
-
-
+  transition: filter 0.5s ease;  }
+  
 #image-grid .container:hover .image {
   filter: blur(1px);  
 }
-
 
 #image-grid .overlay {
   position: absolute;
@@ -102,13 +96,11 @@ You may hover over the images to view my past projects.
   left: 0;
   right: 0;
   opacity: 0;  
-  transition: 0.5s ease; /* opacity */
-}
+  transition: 0.5s ease; /* opacity */}
 
 
 #image-grid .container:hover .overlay {
-  opacity: 1;  /*  overlay when hovering */
-}
+  opacity: 1;  /*  overlay when hovering */}
 
 #image-grid .text {
   color: white;
