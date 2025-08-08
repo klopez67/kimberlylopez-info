@@ -344,7 +344,7 @@ ggplot(gbmA.fit2, highlight = TRUE)
 **Support Vector Machine (SVM) Radial Sigma:** This model used the specified method of “svmRadialSigma”. The hyperparameter grid was defined with an exponential range of cost (C) values from exp(3) to exp(7), totaling 25 values, and sigma values from exp(−12) to exp(−4), totaling 15 values. This expanded grid was selected based on prior experimentation with the grid, as smaller ranges (e.g., C between exp(0) and exp(5)) were at the boundaries of the previous grids. After CV, the optimal model used a cost value of 175.32 and sigma value of 6.041424e-05 (Figure 11).  
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, include=FALSE}
  
 #SVM on Preprocessed data
 svmr.grid3 = expand.grid(C = exp(seq(3, 7, length = 25)), #originally 0,5 then 5,8 which wasnt good
@@ -451,6 +451,7 @@ wrap_plots(plot_list, ncol = 3)
     
 </figure>
 ```{r}
+par(mfrow = c(2, 4))  
 for (var in cont_pred) {
   p = ggplot(testing_data, aes_string(x = "severe_flu", y = var)) +
     geom_violin(trim = FALSE) +
