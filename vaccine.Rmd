@@ -170,6 +170,13 @@ Partial least squares investigated the optimal dimension reduction. Elastic net 
 ### Partial Least Squares
 
 **Partial Least Squares (PLS):** The model was trained on the tuning grid of components 1:14 as the maximum number of components in the dataset in a supervised way. Through CV, the optimal number of components in the final model was 4 which explain the maximum variance present for the predictor variables (Figure 6).
+
+
+<figure style="text-align: center;">
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;"> 
+    Figure 6. Partial least squares (PLS) cross-validation results
+  </figcaption> 
+</figure>  
 ```{r}
 set.seed(2)
 
@@ -222,7 +229,13 @@ enet.fit2 = train(severe_flu~.,
 #coef(enet.fit2$finalModel, enet.fit2$bestTune$lambda)
 ```
 
-Figure 7.  Cross Validation Plot of alpha and lambda for Elastic Net
+
+<figure style="text-align: center;">
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;"> 
+    Figure 7.  Cross Validation Plot of alpha and lambda for Elastic Net
+  </figcaption> 
+</figure>  
+ 
 ```{r}
 plot(enet.fit2, par.settings = myPar, xTrans = log)
 ```
@@ -293,7 +306,12 @@ model.lda2=  train(x_rec,y_rec,
                   trControl = ctrl)
 ```
 
-Figure 8. Linear Discriminant Analysis Final model 
+
+<figure style="text-align: center;">
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;"> 
+    Figure 8. Linear Discriminant Analysis Final model 
+  </figcaption> 
+</figure>  
 ```{r}
 plot(model.lda2$finalModel)
 ```
@@ -303,7 +321,12 @@ plot(model.lda2$finalModel)
 #### 1.) Classification Ada Boosting 
 **Ada Boosting:** A tuning grid was created using expand.grid, varying the number of trees (n.trees = 0.1, 1, 10, 50, 100), interaction depth (1–5), and shrinkage (0.001, 0.005, 0.01, 0.05). The minimum number of observations in each terminal node was set to the default value of 10. The default number of individuals in each final node was used (10). The method was set to “gbm” for boosting and specification of “adaboost” distribution. After CV, the optimal model used 50 trees, 1 interaction depth, and a shrinkage of 0.01 (Figure 9). Variable importance plots indicated that BMI had the strongest influence on predicting flu severity, followed by weight (coefficient magnitude: 0.97), while other variables contributed very little to the model (Figure 10).
 
-Figure 9. Cross Validation Plot for Ada Boosting 
+
+<figure style="text-align: center;">
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;"> 
+    Figure 9. Cross Validation Plot for Ada Boosting 
+  </figcaption> 
+</figure> 
 ```{r}
 gbmA.grid = expand.grid(n.trees = c(0.1,1,10,100,200), 
                         interaction.depth = 1:5,
@@ -452,6 +475,7 @@ wrap_plots(plot_list, ncol = 3)
 </figure>
 ```{r}
 par(mfrow = c(2, 4))  
+
 for (var in cont_pred) {
   p = ggplot(testing_data, aes_string(x = "severe_flu", y = var)) +
     geom_violin(trim = FALSE) +

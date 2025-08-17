@@ -584,6 +584,11 @@ on the tuning grid of components 1:14 as the maximum number of
 components in the dataset in a supervised way. Through CV, the optimal
 number of components in the final model was 4 which explain the maximum
 variance present for the predictor variables (Figure 6).</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 6. Partial least squares (PLS) cross-validation results
+</figcaption>
+</figure>
 <pre class="r"><code>set.seed(2)
 
 pls_fit = train(severe_flu~., 
@@ -640,8 +645,11 @@ enet.fit2 = train(severe_flu~.,
 
 #enet.fit2$bestTune
 #coef(enet.fit2$finalModel, enet.fit2$bestTune$lambda)</code></pre>
-<p>Figure 7. Cross Validation Plot of alpha and lambda for Elastic
-Net</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 7. Cross Validation Plot of alpha and lambda for Elastic Net
+</figcaption>
+</figure>
 <pre class="r"><code>plot(enet.fit2, par.settings = myPar, xTrans = log)</code></pre>
 <p><img src="vaccine_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 </div>
@@ -717,7 +725,11 @@ model.lda2=  train(x_rec,y_rec,
                   method = &quot;lda&quot;,
                   metric = &quot;ROC&quot;,
                   trControl = ctrl)</code></pre>
-<p>Figure 8. Linear Discriminant Analysis Final model</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 8. Linear Discriminant Analysis Final model
+</figcaption>
+</figure>
 <pre class="r"><code>plot(model.lda2$finalModel)</code></pre>
 <p><img src="vaccine_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 </div>
@@ -738,7 +750,11 @@ Variable importance plots indicated that BMI had the strongest influence
 on predicting flu severity, followed by weight (coefficient magnitude:
 0.97), while other variables contributed very little to the model
 (Figure 10).</p>
-<p>Figure 9. Cross Validation Plot for Ada Boosting</p>
+<figure style="text-align: center;">
+<figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+Figure 9. Cross Validation Plot for Ada Boosting
+</figcaption>
+</figure>
 <pre class="r"><code>gbmA.grid = expand.grid(n.trees = c(0.1,1,10,100,200), 
                         interaction.depth = 1:5,
                         shrinkage = c(0.001,0.005, 0.01, 0.05), 
@@ -917,6 +933,7 @@ across the outcome of flu severity in the Testing data
 </figcaption>
 </figure>
 <pre class="r"><code>par(mfrow = c(2, 4))  
+
 for (var in cont_pred) {
   p = ggplot(testing_data, aes_string(x = &quot;severe_flu&quot;, y = var)) +
     geom_violin(trim = FALSE) +
