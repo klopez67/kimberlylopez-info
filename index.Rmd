@@ -57,7 +57,7 @@ I am currently a 2nd year graduate student at Columbia University Mailman School
 
 ### My Expertise
 
-Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R Language, Python, and SAS. 
+Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R Language, Python, SAS, and SQL for relational databases. 
 
 I excel in statistical analysis, variable modeling, and correlation analysis, driven by a passion for leveraging data to uncover and explain health outcomes. With a strong background in conducting thorough literature reviews for research projects, I am skilled in transforming findings into compelling data visualizations. I have experience in both clinical analysis as well as machine learning prediction based modeling methods. 
 
