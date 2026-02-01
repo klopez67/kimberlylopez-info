@@ -87,12 +87,21 @@ h1, h2, h3 {
       <p><strong>Year:</strong> 2025</p>
       <p><strong>Contributions:</strong> 
       At Boehringer Ingelheim, I collaborate with clinical data scientists to analyze large-scale clinical trial datasets using R. I develop R programs which support statistical analyses and generate key result outputs such as tables, figures, and listings for ongoing trials. One of the most rewarding aspects of this role is designing interactive R Shiny dashboards and Clinical Quality Monitoring templates that help translate complex data into accessible insights for broader teams and for clincial reporting. I am also gaining hands-on experience with industry standards like CDISC and learning the importance of reproducibility and clear documentation in clinical research. This experience continues to sharpen my programming skills and deepen my understanding of how data science supports evidence-based decision-making in healthcare and clinical research while streamlining data analysis for cross-functional teams. </p>
-      <figure style="text-align: center;">
-      <img src="images/Logos/BI_logo.png" style="width:30%; border:none;" alt=" logo" />
-      <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
-        
-      </figcaption>
-    </figure>
+      <div style="display: flex; justify-content: center; align-items: flex-start; gap: 40px;">
+
+  <figure style="text-align: center;">
+    <img src="images/Logos/BI_logo.png" style="width:300px; border:none;" alt="Logo" />
+    <figcaption style="font-size: 14px; color: #555; margin-top: 20px;">
+    </figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="images/Z30_8737.JPG" style="width:300px; border:none;" alt="Presentation" />
+    <figcaption style="font-size: 14px; color: #555; margin-top: 5px;">
+    </figcaption>
+  </figure>
+  </div>
+      
       
     </div>
   </div>
@@ -101,7 +110,7 @@ h1, h2, h3 {
 <div class="timeline"> 
   <div class="timeline-item">
     <div class="timeline-content">
-      <h4>Joslin Diabetes Center: Research Internship - Doria Lab</h4>
+      <h4>Joslin Diabetes Center: Research Internship </h4>
       <p><strong>Year:</strong> 2025</p>
       <p><strong>Contributions:</strong>  While kidney disease is well-recognized in the T1D population, the cardiovascular complications tied to early kidney decline remain under-addressed. Motivated by this unmet need, I joined a phase II clinical trial project analyzing how fenofibrate, a lipid-lowering drug, might slow kidney function decline and ultimately improve cardiovascular outcomes in this high-risk population. I analyzed study data with the intention-to-treat approach following statistical plans outlined in study protocol. Additionally, we investigated differences in kidney biomarker given the research discussion of identifying the most accurate clinical research methods for assessing fenofibrates effect on kidney function. 
  </p>
