@@ -25,10 +25,9 @@ h1, h2, h3 {
 ```{=html}
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 30px;">
 
-  <img src="images/IMG_5708.jpeg" style="width:200px; height:200px; border-radius:50%; object-fit:cover; border: 1px solid #2C3E50;">
-
-  
-  <div class="education-details" style="font-family: Georgia, serif; padding-top: 50px;">
+  <img src="images/Candidate6.jpg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;object-position: center 40%; border: 1px solid #2C3E50;">
+ 
+  <div class="education-details" style="font-family: Georgia, serif; padding-top: 80px;">
 
    
     <div class="edu-item" style="display: flex; align-items: center; margin-bottom: 30px; color: #2C3E50;">
@@ -53,17 +52,17 @@ h1, h2, h3 {
 ```
 ### About Me
 
-I am currently a 2nd year graduate student at Columbia University Mailman School of Public Health in the Masters of Science Biostatistics program on the Health Data Science track. My research interest include population health and clinical research in chronic diseases such as Cardiovascular disease, Kidney disease, Diabetes, and Cancer. 
+I am currently a statistician on the Cardiovascular and Renal team at CSL. I recently graduated with my Masters of Science in Biostatistics from Columbia University with experience in both research and pharmaceutical setting. My statistical expertise lies in longitudinal and survival modeling, clinical trial methodology, and machine learning modeling. My therapeutic background focuses on metabolic disease like cardiovascular disease, diabetes, and kidney disease,
 
 ### My Expertise
 
-Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R Language, Python, SAS, and SQL for relational databases. 
+Coming from a background in Population Health and research, I have theoretical and practical knowledge in study design and data analysis. I have data collection and management experience with coding languages such as R Language,SAS,Python, and SQL for relational databases. 
 
 I excel in statistical analysis, variable modeling, and correlation analysis, driven by a passion for leveraging data to uncover and explain health outcomes. With a strong background in conducting thorough literature reviews for research projects, I am skilled in transforming findings into compelling data visualizations. I have experience in both clinical analysis as well as machine learning prediction based modeling methods. 
 
 ### Previous Projects 
 
-You may hover over the images to view my past projects. 
+Please hover over the images to view a wide range of my past projects. 
 ```{=html}
 <style>
 
